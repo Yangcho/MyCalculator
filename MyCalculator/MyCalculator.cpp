@@ -13,6 +13,7 @@ public:
 class MyCalc : public MainCalc {
 public:
     //파생된 계산기 클래스
+    // //template 클래스로 작성해야 함 template <typename T>
     //여기서 class MainCalc의 가상함수를 재정의overriding
 };
 
